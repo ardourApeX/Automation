@@ -16,14 +16,14 @@ print(titles) #select the window name from here
 
 image_number = 0
 exit_code = True
-email = "YOUR_EMAIL_ADDRESS"
-Password = "PASSWORD"
-url = "YOUTUBE_LIVE_STREAM_LINK"
-window_name = "CHROME_TAB_NAME"
+email = "ritik_srivastava.scsebtech@galgotiasuniversity.edu.in"
+Password = "Anumymoon@0509"
+url = "https://youtu.be/FHSrEThvtZs"
+window_name = "(69) Inaugural Session: Two days National Seminar on NEP 2020: A Gateway to Academic Excellence - YouTube - Google Chrome"
 
 def take_background_ss():
-    global image_number
-    hwnd = win32gui.FindWindow(None, window_name')
+    global image_number, window_name
+    hwnd = win32gui.FindWindow(None, window_name)
     # Change the line below depending on whether you want the whole window
     # or just the client area. 
     #left, top, right, bot = win32gui.GetClientRect(hwnd)
@@ -87,11 +87,9 @@ def automation():
     time.sleep(3)
     driver.get(url)
     try:
-        driver.find_element_by_id("reason") #If the live stream is ended
-        exit_code = False        
-    except:
         time.sleep(30)
         account = driver.find_element_by_id("avatar-btn")
+        print('Iam here')
         account.click()
         time.sleep(2)
         take_background_ss()
