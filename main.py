@@ -4,8 +4,8 @@ import time
 
 image_number = 0
 exit_code = True
-email = "ritik_srivastava.scsebtech@galgotiasuniversity.edu.in"
-Password = "Anumymoon@0509"
+email = "YOUR MAIL"
+Password = "PASSWORD"
 url = "https://youtu.be/FHSrEThvtZs"
 
 def automation():
