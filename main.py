@@ -23,7 +23,7 @@ window_name = "CHROME_TAB_NAME"
 
 def take_background_ss():
     global image_number
-    hwnd = win32gui.FindWindow(None, 'Anaconda Prompt (anaconda) - jupyter  notebook')
+    hwnd = win32gui.FindWindow(None, window_name')
     # Change the line below depending on whether you want the whole window
     # or just the client area. 
     #left, top, right, bot = win32gui.GetClientRect(hwnd)
