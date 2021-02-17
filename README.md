@@ -2,10 +2,9 @@
 ### Ft. Galgotias University
 ## Requirements
 ```sh
-python 3.8
+python 3.6
 selenium
 pyautogui
-PIL
 ```
 ### Run : ```pip install -r "requirements.txt"```
 
@@ -20,22 +19,8 @@ Day-1 YouTube Live Link: https://youtu.be/FHSrEThvtZs
 Day-2 YouTube Live Link: https://youtu.be/FWPUY_8EhA8
 ```
 
-> Open the YouTube video in a ```separate chrome tab``` and make sure there should be ```only one tab``` i.e. of YouTube video itself.
-
-2.Open the ```python shell```. Run the following command 
-![](markdown_images/window.PNG)
-
-Now there must be a ```youtube window name``` copy that and paste it in front of ```window_name```
-
-3.Now close the chrome window.
-
-### OR - You can place these window name in front of ```window_name``` variable, it should work as well
-```sh
-Day-1 : (69) Inaugural Session: Two days National Seminar on NEP 2020: A Gateway to Academic Excellence - YouTube - Google Chrome
-Day-2 : (69) Day-2 Plenary Talks: Track: Quality Improvement in Research - YouTube - Google Chrome
-```
-![](markdown_images/CHROME.PNG)
+2.To run the script make a folder screenshot in the same directory, script will take scrrenshot automatically after 15 min of interval, wanna edit it go to ```line 50``` and add you time in secconds in ```time.sleep(15*60)```
 
 
 
-4.Run ```pyhton main.py```
+3.Run from terminal ```python main.py```
