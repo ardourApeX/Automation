@@ -18,7 +18,7 @@ def automation():
     
     driver = webdriver.Chrome(executable_path = "./chromedriver.exe")
     driver.get("https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent")
-    
+    time.sleep(3)
     signin = driver.find_element_by_class_name("s-btn__google")
     signin.send_keys(Keys.ENTER)
     inputElement = driver.find_element_by_tag_name("input")
